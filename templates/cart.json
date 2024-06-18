@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "custom_liquid_4WABk8": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {text-align: right;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div>\nDate Picker <input type=\"Date\"\/>\n<\/div>",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "custom_liquid_4WABk8"
+  ]
+}
